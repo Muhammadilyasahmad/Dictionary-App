@@ -29,7 +29,7 @@ const Search = () => {
             <input type='text' placeholder="Search Word's" onChange={handleInput} value={search}/>
             <button onClick={myFun}>Search</button>
           </div>
-          <div className='datas'>
+          <div className="datas">
             {
               data &&
               <div className='datas'>
